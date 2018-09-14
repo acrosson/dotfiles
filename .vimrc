@@ -1,7 +1,5 @@
 syntax on
 set background=dark
-let g:solarized_termtrans = 1
-colorscheme solarized
 set number
 set ic
 imap jj <Esc>
