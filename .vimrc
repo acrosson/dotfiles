@@ -26,6 +26,8 @@ set autoindent          " copy indent from current line when starting a new
 " make backspaces more powerfull
 set backspace=indent,eol,start
 
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+
 set ruler                           " show line and column number
 syntax on            " syntax highlighting
 set showcmd          " show (partial) command in status line
